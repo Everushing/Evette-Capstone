@@ -1,0 +1,242 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 2em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  /* color: tomato; Set h1 color to tomato */
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  
+}
+
+h3 {
+  text-align: center;
+}
+
+
+/* News Section Styles */
+
+.news {
+  margin-bottom: 20px;
+}
+
+.news-title {
+  font-size: 1.5em; /* Increase title size */
+  line-height: 1.2; /* Improves readability */
+  margin-bottom: 10px; /* Add some space between title and content */
+}
+
+.news-content {
+  text-align: justify; /* Aligns text within a block */
+  line-height: 1.5; /* Improves readability */
+  padding: 10px; /* Adds some padding around the content */
+
+}
+
+svg {
+  /* Center horizontally */
+  margin: 0 auto;
+  display: block; /* Ensures the SVG behaves like a block-level element */
+}
+
+ 
+
+
+.price {
+  /* Styles for the overall price container element */
+  text-align: center; /* Centers content horizontally */
+  padding: 20px;
+}
+
+.price h1,
+.price h2 {
+  /* Styles for headings */
+  margin: 5px 0; /* Adds some spacing between headings */
+}
+
+.price h1 {
+  font-size: 2em; /* Makes the symbol heading larger */
+}
+
+/* ... (Your existing Nav, h1, p, h2, image-container, img, h3, news, price styles) ... */
+
+/* Signup Styles */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #fff; /* White background */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 350px;
+  margin: 20px auto; /* Center horizontally with margin */
+}
+
+.signup-container h2 {
+  color: #000; /* Black text */
+  margin-bottom: 25px;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.signup-container label {
+  color: #333; /* Dark gray text */
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+.signup-container button[type="submit"] {
+  padding: 12px 18px;
+  background-color: #000; /* Black background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.signup-container button[type="submit"]:hover {
+  background-color: #333; /* Darker black on hover */
+}
+
+.signup-container p {
+  margin-top: 20px;
+  color: #555;
+}
+
+.signup-container a {
+  color: #000; /* Black link */
+  text-decoration: none;
+  border-bottom: 1px solid #000; /* Underline on hover */
+  transition: border-bottom-color 0.3s ease;
+}
+
+.signup-container a:hover {
+  border-bottom-color: transparent;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* ... (Your existing Nav, h1, p, h2, image-container, img, h3, news, price styles) ... */
+
+/* Login Styles */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #fff; /* White background */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 350px;
+  margin: 20px auto; /* Center horizontally with margin */
+}
+
+.login-container h2 {
+  color: #000; /* Black text */
+  margin-bottom: 25px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-container label {
+  color: #333; /* Dark gray text */
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+.login-container button[type="submit"] {
+  padding: 12px 18px;
+  background-color: #000; /* Black background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.login-container button[type="submit"]:hover {
+  background-color: #333; /* Darker black on hover */
+}
+
+.login-container p {
+  margin-top: 20px;
+  color: #555;
+}
+
+.login-container a {
+  color: #000; /* Black link */
+  text-decoration: none;
+  border-bottom: 1px solid #000; /* Underline on hover */
+  transition: border-bottom-color 0.3s ease;
+}
+
+.login-container a:hover {
+  border-bottom-color: transparent;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
