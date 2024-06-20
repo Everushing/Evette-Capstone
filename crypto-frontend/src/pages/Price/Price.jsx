@@ -31,16 +31,17 @@ export default function Price (props) {
     getCoin();
   }, []);
 
-  // loaded function for when data is fetched.
   const loaded = () => {
+    const formattedTime = new Date(coin.time).toLocaleString();
     return (
-        <div>
-            <h1>{coin.asset_id_base}/{coin.asset_id_quote} </h1>
-            <h2>{coin.rate}</h2>
-            {/* { <Route path="/price/:symbol" element={<Price/>}/> } */}
-        </div>
+      <div>
+        <h1>{coin.asset_id_base}/{coin.asset_id_quote}</h1>
+        <h2>Rate: {coin.rate}</h2>
+        <p>Time: {formattedTime}</p>
+        <p>24h Volume: {coin.volume_24h}</p> 
+      </div>
     );
-};
+  };
 
     const loading = () => {
         return <h1>Loading...</h1>
